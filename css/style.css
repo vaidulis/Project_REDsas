@@ -149,9 +149,10 @@ i {
   background-size: cover cover;
   background:linear-gradient(0deg, rgba(197, 49, 99, 0.850345), rgba(197, 49, 99, 0.850345)), url("../pic/Img2.png");
 }
-.bgrimg:hover {
+.img:hover {
   padding: 0.286rem;
 }
-.aaab {
-
+.bgrimg:after :hover {
+  padding: 0.286rem;
+  content: "";
 }
