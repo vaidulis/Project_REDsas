@@ -1,0 +1,28 @@
+html {
+    font-size: 14px;
+}
+$purple: #C53163;
+$white: white;
+
+$color-primary: $purple;
+$color-secondary: $white;
+
+$html-font-size: 14px;
+$base-font-size: 1rem;
+body {
+    margin: 0;
+}
+h1 {
+  font-size: 3.429*$base-font-size;
+  color: $color-secondary;
+}
+h2 {
+  font-size: 2.571*$base-font-size;
+  color: #333333;
+  font-weight: normal;
+  margin: 0;
+}
+h3 {
+    font-size: 1.286*$base-font-size;
+    font-weight: bold;
+}

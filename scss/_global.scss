@@ -1,0 +1,8 @@
+$font-family-main: 'Libre Baskerville', serif;
+$font-family-secondary: 'Sintony', sans-serif;
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: $font-family-main;
+}

@@ -1,0 +1,25 @@
+.galery {
+    background-color:#F5F5F5;
+    width: 100vw;
+    padding-bottom: 4.286rem;
+    padding-top: 5.071rem;
+    .line {
+        justify-content: center;
+        a {
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+    }
+}
+.img {
+  border-radius: 0.286rem;
+  border: solid white;
+  width: 14.286rem;
+  height: 14.286rem;
+  box-shadow: 0 0.143rem 0 #DCDCDC;
+}
+.bgrimg {
+  justify-content: center;
+  background-size: cover;
+  background:linear-gradient(0deg, rgba(197, 49, 99, 0.850345), rgba(197, 49, 99, 0.850345)), url("../pic/Img2.png");
+}

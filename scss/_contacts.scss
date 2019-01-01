@@ -1,0 +1,56 @@
+.contacts {
+    background-color: $color-primary;
+    width: 100vw;
+    .column {
+        align-items: center;
+        margin-top: 4.286rem;
+    }
+    .line-center {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .column, .col {
+            width: 32.214rem;
+            margin: 5.714rem 1.464rem;
+            iframe{
+                width: 32.214rem;
+                height: 20rem;
+                margin-bottom: 2rem;
+            }
+            p {
+                color: white;
+                margin: 0;
+                font-size: 1.286rem;
+            }
+        }
+    }
+}
+form {
+    ::placeholder{
+        padding-top: 1.214rem;
+        }
+    input, textarea {
+        padding-left: 2.114rem;
+        width: 32.214rem;
+        margin-bottom: 1.429rem;
+        border-radius: 0.286rem;
+        border-style: none;
+        font-family: Libre Baskerville;
+        font-size: 1.429rem;
+    }
+    input{
+        height: 4.286rem;
+    }
+    textarea {
+        height: 8.571rem;
+        resize: none;
+    }
+    input[type="submit"] {
+        background-color: #333333;
+        color: white;
+    }
+    input[type="email"] {
+        color: #333333;
+    }
+}

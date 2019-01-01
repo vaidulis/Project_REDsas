@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+    li {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .line {
+        flex-direction: column;
+    }
+    .line-center {
+        flex-direction: column;
+    }
+    .center .line {
+        width: 100vw;
+    }
+    form input, form textarea {
+        padding-left: 0;
+      width: 90%;
+      padding: 0;
+      margin:1rem;
+    }
+    .contacts .line-center .column .col {
+        width: 100%;
+        margin:0;
+    }
+    // .contacts .line-center .column, .contacts .line-center .col {
+    //     width: 90%;
+    //     margin:1rem;
+    // }
+}
